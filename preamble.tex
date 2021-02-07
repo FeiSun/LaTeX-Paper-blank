@@ -1,0 +1,50 @@
+\usepackage[english]{babel}
+
+% fix error "Too many math alphabets used in version normal." when using bm package
+% https://www.texfaq.org/FAQ-manymathalph.html
+\newcommand{\bmmax}{0}  
+\newcommand{\hmmax}{0}  
+% \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{scalerel} % scale in math model
+
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage[justification=justified, skip=5pt]{caption}
+
+\usepackage[inline]{enumitem}
+\usepackage[capitalize]{cleveref}  % \cref, \Cref command for table, figure
+
+\usepackage{tikz}
+\usetikzlibrary{shapes, positioning, fit, calc}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes.arrows, shapes.geometric}
+\usetikzlibrary{matrix}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.14}
+
+\usepackage{sistyle}
+\SIthousandsep{,}
+
+\usepackage{soul}
+\setstcolor{red}
+
+\usepackage{xcolor}
+
+%% adjust table
+\renewcommand{\arraystretch}{1}
+
+
+\newcommand{\argmin}{\operatornamewithlimits{arg\,min}}
+\newcommand{\argmax}{\operatornamewithlimits{arg\,max}}
+\newcommand{\ie}{i.e.,}
+\newcommand{\eg}{e.g.,}
+
+% \newcommand{\sun}[1]{\textcolor{red}{[#1---sun.]}}
