@@ -1,0 +1,16 @@
+
+%% for footnote without mark
+\newcommand\blfootnote[1]{%
+\begingroup
+\renewcommand\thefootnote{}\footnote{#1}%
+\addtocounter{footnote}{-1}%
+\endgroup
+}
+
+
+\newcommand{\argmin}{\operatornamewithlimits{arg\,min}}
+\newcommand{\argmax}{\operatornamewithlimits{arg\,max}}
+\newcommand{\ie}{i.e.,}
+\newcommand{\eg}{e.g.,}
+
+% \newcommand{\sun}[1]{\textcolor{red}{[#1---sun.]}}

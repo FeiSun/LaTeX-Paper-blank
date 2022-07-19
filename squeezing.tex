@@ -1,0 +1,67 @@
+%% /** ---------------------------------------------------------
+%%      a file full of squeezing options 
+%%      -- which you should try to avoid
+%% -------------------------------------------------------------
+%%
+%% from:
+%% http://www.eng.cam.ac.uk/help/tpl/textprocessing/squeeze.html    
+%% ---------------------------------------------------------- */
+%%     * Page Layout
+%%           o \columnsep: gap between columns
+%%           o \topmargin: gap above header
+%%           o \topskip: between header and text
+%%           o \textheight: height of main text
+%%           o \textwidth: width of text
+%%           o \oddsidemargin: odd page left margin
+%%           o \evensidemargin : even page left margin
+%%     * Paragraphs
+%%           o \parindent: indentation of paragraphs
+%%           o \parskip: gap between paragraphs
+%%     * Floats (tables and figures)
+%%           o \floatsep: space left between floats.
+%%           o \textfloatsep: space between last top float or first bottom float and the text.
+%% \addtolength{\textfloatsep}{-0.0cm}
+%% \setlength\textfloatsep{0.5cm}
+%%           o \intextsep : space left on top and bottom of an in-text float.
+%%           o \dbltextfloatsep is \textfloatsep for 2 column output.
+%% \addtolength{\dbltextfloatsep}{-0.0cm}
+%% \setlength\dbltextfloatsep{0.1cm}
+%%           o \dblfloatsep is \floatsep for 2 column output.
+%%           o \abovecaptionskip: space above caption
+%% \addtolength\abovecaptionskip{-0.0cm}
+%% \setlength\abovecaptionskip{0.0cm}
+%%           o \belowcaptionskip: space below caption
+%% \addtolength\belowcaptionskip{-0.0cm}
+%% \setlength\belowcaptionskip{0.1cm}
+%%     * Maths
+%%           o \abovedisplayskip: space before maths
+%%           o \belowdisplayskip: space after maths
+%%           o \arraycolsep: gap between columns of an array
+%%     * Lists
+%%           o \topsep: space between first item and preceding paragraph.
+%%           o \partopsep: extra space added to \topsep when environment starts a new paragraph.
+%%           o \itemsep: space between successive items.
+%%    * table
+%%           o \renewcommand{\arraystretch}{1}
+
+%% /** ---------------------------------------------------------
+%%       AAAI specific
+%% ---------------------------------------------------------- */
+
+%% vertical size of title box
+%% \setlength\titlebox{0.5in}
+%% \topskip -2in
+%% \abovecaptionskip 0.0in
+%% \dblfloatsep -0.2in
+%% \floatsep -0.1in
+%% \topmargin 0.0in
+%% \oddsidemargin -0.5 in
+%% \abovedisplayskip 0.0in
+%% \belowdisplayskip 0.0in
+%% \textfloatsep 0.0in
+%% \topmargin -1.0in
+%% \setlength\titlebox{1.25in}
+%% \setlength\titlebox{2.13in}
+
+%% change abstract to full width (undo quote)
+%% \renewenvironment{abstract}{\centerline{\bf Abstract}\vspace{0.5ex}\small}{\par\vskip 1ex}
