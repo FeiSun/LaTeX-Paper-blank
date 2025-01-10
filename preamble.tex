@@ -1,5 +1,8 @@
 \usepackage[english]{babel}
 
+% It will improve the layout of the manuscript, and will typically save some space.
+\usepackage[activate={true,nocompatibility}]{microtype}
+
 % fix error "Too many math alphabets used in version normal." when using bm package
 % https://www.texfaq.org/FAQ-manymathalph.html
 \newcommand{\bmmax}{0}  
@@ -33,6 +36,8 @@
 \usepackage{sistyle}
 \SIthousandsep{,}
 
+# Do not use the soul package in the ACL template 
+# unless you fully understand its implications and behavior.
 \usepackage{soul}
 \setstcolor{red}
 
